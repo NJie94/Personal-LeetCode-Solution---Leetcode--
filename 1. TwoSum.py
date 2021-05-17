@@ -1,3 +1,8 @@
+'''
+Theory on solving this problem
+- Create a for loop to loop through a search of target-each of the id
+- Then return the once the remain value after subtraction is found in the list of number
+'''
 class Solution(object):
     def twoSum(self, nums, target):
         """

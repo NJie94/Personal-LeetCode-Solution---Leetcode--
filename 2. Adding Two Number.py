@@ -1,3 +1,8 @@
+'''
+Theory:
+
+'''
+
 # Definition for singly-linked list.
 class ListNode(object):
     def __init__(self, val=0, next=None):
@@ -25,7 +30,8 @@ class Solution(object):
                 val += l2.val
                 l2 = l2.next
             
-            carry, val = divmod(val,10)
+            #to clear of any addition that is bigger than 10 to bring forward to next node in the list
+            carry, val = divmod(val,10) 
             current.next = ListNode(val)
             current = current.next
 
