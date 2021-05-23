@@ -17,7 +17,7 @@ class Solution(object):
             self.tracer(list,s + "(", start+1, end, a)
         
        if end < start:
-            self.tracer(list, s + ")" + start , end + 1 ,a)
+            self.tracer(list, s + ")",  start , end + 1 ,a)
 
         
         
